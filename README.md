@@ -1,46 +1,69 @@
-# Challenge 10 (Phase 3 - Batch Rep) - Create Post Blog App
+# Challenge 10 (Phase 3 - Batch Rep) - Create React Movie App using TMDB movie database
 
 # Description
 
-In this challenge, You will create a post blog app using api that you guys can check the [API DOCUMENTATION HERE](https://blogger-wph-api-production.up.railway.app/api/)
-and then implement it to this [UI DESIGN](https://www.figma.com/design/vQHN3uPFiXfm8EYye431jN/Blog--Copy-?node-id=17488-16700&p=f&t=J4ZJzMMU48EI0YNn-0)
+In this assignment, you'll create a movie app using public API from TMDB. You can check the
+[API DOCUMENTATION HERE](https://developer.themoviedb.org/docs/getting-started)
 
-You don't need to do all the pages, all you have to do is:
+You'll be provided with a basic project setup, and your task will be to implement the design by writing React component utilize with Tailwind CSS v4.
 
-- Home page
-- Search page
-- Detail Page
+The design for this assignment is located at the following Figma link:
 
-The goal of this challenge is to assess your ability to:
+[Figma Design Link](https://www.figma.com/design/PjR3Adxi8eZbS2cmdPuG52/Front-End-Developer-Test---Movie-Explorer-App?node-id=8411-143671&t=kXgzE4L8vzfam8tz-1)
+
+The goal is to assess your ability to:
 
 - Interpret a design from Figma.
-- Structure a webpage with Next JS.
+- Structure a webpage with React.
 - Apply styles using Tailwind CSS.
 - Create a responsive layout.
-- Integrate your app with provided API
-- Deploy your app to vercel
+- Integrate your app with public API
+
+# Folder Structure
+
+You are provided with the following folder structure:
+
+- |- node module
+- |- public
+- |- src
+- |-- assets
+- |-- components
+- |--- container
+- |--- layout
+- |--- pages
+- |--- ui
+- |-- hooks
+- |-- interfaces
+- |-- routes
+- |-- services
+- |-- app.tsx
+- |-- index.css
+- |-- main.tsx
+
+etc.
 
 # Getting Started
 
-Don't forget to run npm install for this project first (this project already installed libraries that you need, such as Axios, React Query)
+Don't forget to run npm install for this project first (this project already installed libraries that you need, such as Axios, React Query, React Router DOM, Tailwindcss, clsx, react-intersection-observer)
 
 Study the Figma Design: Open the Figma link and thoroughly examine the design. Understand the layout, spacing, colors, typography, and responsive behavior.
 
 Start to code using all structured files that provided (you can also add what you need)
 
+# Important Notes
+
+You don't have to change index.html or main.tsx, also you can create a structure folder as you want, but remember to stay on reusable principe
+
 # Evaluation System
 
 The evaluation for this assignment will be based on the following criteria:
 
-1. Project Structure & App Router Conventions: How you structure your project using the Next.js App Router conventions (e.g., proper use of page.js, layout.js, loading.js, not-found.js, etc.).
-
-2. Routing & Data Fetching: Your ability to implement routing, including dynamic routes ([slug]), and efficiently fetch data from a local API using the appropriate rendering strategies (Server Components for data fetching, Client Components for interactivity).
-
-3. Next.js Feature Utilization: How effectively you use Next.js-specific features for optimization and user experience, such as using the <Image> component for images and implementing custom error handling.
-
-4. Code Clarity & Best Practices: The overall quality and readability of your code. This includes clean code, clear naming for variables and components, and following general React and Next.js best practices.
-
-5. Deployment: Whether the application is successfully deployed to a hosting platform (like Vercel or Netlify) and is fully functional in the live environment.
+1.  **Structure and organize component:** How you can split the code into components and organize it
+2.  **Props Handling:** How you use props effectively
+3.  **Conditional Rendering:** How you display a different component with conditions
+4.  **Reusable Components:** How can you reuse the component so you're code will be cleaner
+5.  **Code Clarity:** Code quality checking
+6.  **Hooks usage:** How can you utilize hooks effectively (u don't have to use all hooks)
 
 ---
 
